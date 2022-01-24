@@ -1,0 +1,52 @@
+
+h2{
+	color: whitesmoke;
+}
+
+body{ 
+	background-image: url(https://images.pexels.com/photos/2531237/pexels-photo-2531237.jpeg?cs=srgb&dl=pexels-roberto-nickson-2531237.jpg&fm=jpg);
+	background-size: cover;
+	}
+
+img{
+	float: left;
+	margin: 20px;
+	padding: 5px 20px 5px 20px;
+}
+
+footer{
+	clear: both;
+	text-align: center;
+}
+
+li {
+	text-align: right;
+	display: inline;
+	list-style: none;
+
+}
+
+a{
+	color: whitesmoke;
+	cursor: pointer;
+	text-decoration: none;
+}
+
+p{
+	color: whitesmoke;
+	text-decoration: underline;
+	text-transform: capitalize;
+	line-height: 50px;
+	font-style: italic;
+	font-weight: 100;
+	font-size: 200%;
+	font-family: 'Dongle', sans-serif;
+/* From google fonts */
+	border: solid rgba(162, 35, 121, 0.2);
+	
+	/*font-family: "Times New Roman", Georgia;*/
+
+/*All fonts are not equally distributed between different operating systems, windows has fonts that linux, ios, and macos 
+dont have and vice versa. for example, if a computer doesnt support times new roman, the website will display the text in the 
+georgia font. it is a good idea to know what font different OS support just incase*/
+}

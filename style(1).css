@@ -1,0 +1,98 @@
+/*
+selector {
+Property:  Value;
+
+*/
+
+body{ 
+	background-image: url(https://images.pexels.com/photos/2531237/pexels-photo-2531237.jpeg?cs=srgb&dl=pexels-roberto-nickson-2531237.jpg&fm=jpg);
+	background-size: cover;
+	}
+
+ul{
+	text-align: center;
+
+
+}
+
+li{
+
+	display: inline;
+}
+
+
+a{
+	cursor: pointer;
+	text-decoration: none;
+	
+}
+
+a:hover{
+	color: whitesmoke;
+}
+
+
+h2, p{
+		color: darkred;
+		text-align: center;
+		border: 2px solid rgba(162, 35, 121, 0.2);
+	}
+
+p{
+	color: yellowgreen;
+	text-decoration: underline;
+	text-transform: capitalize;
+	line-height: 50px;
+	font-style: italic;
+	font-weight: 100;
+	font-size: 100%;
+	font-family: 'Dongle', sans-serif;
+/* From google fonts */
+	border: solid rgba(162, 35, 121, 0.2);
+	
+	/*font-family: "Times New Roman", Georgia;*/
+}
+
+nav p{
+	color: whitesmoke;
+	text-align: left;
+}
+	.webtext{
+
+	}
+
+
+#div1{
+color: whitesmoke;
+text-align: right;
+
+}
+
+#div2{
+color: darkred;
+text-align: left;
+
+}
+
+/*
+
+Selector           Example      Example Descripion
+
+element	             p	        Selects all <p> elements
+
+element,element	    div, p	    Selects all <div> elements and all <p> elements
+
+element element   	div p	    Selects all <p> elements inside <div> elements
+
+element>element	   div > p	    Selects all <p> elements where the parent is a <div> element
+
+element+element	   div + p	    Selects the first <p> element that is placed immediately after <div> elements
+
+:first-child	p:first-child	Selects every <p> element that is the first child of its parent
+
+:last-child	    p:last-child	Selects every <p> element that is the last child of its parent
+
+:hover	           a:hover	    Selects links on mouse over
+
+
+*/
