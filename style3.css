@@ -46,7 +46,5 @@ p{
 	
 	/*font-family: "Times New Roman", Georgia;*/
 
-/*All fonts are not equally distributed between different operating systems, windows has fonts that linux, ios, and macos 
-dont have and vice versa. for example, if a computer doesnt support times new roman, the website will display the text in the 
-georgia font. it is a good idea to know what font different OS support just incase*/
+
 }
